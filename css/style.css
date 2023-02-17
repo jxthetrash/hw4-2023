@@ -12,7 +12,7 @@ a.skip{
 }
 
   /* Requirement 2 code here -- Do not remove this comment. */
-nav.focus{
+nav:focus{
   border-top: 10px solid yellow ;
 }
 
@@ -76,35 +76,57 @@ img{
 
   /*Add the media query here.  Make sure to */
 
-@media and (min-width: 800px) {
+@media screen and (min-width: 800px) {
   nav{
     padding-top: 35px;
     /* Requirement 10 code here -- Do not remove this comment. */
+
     text-align: right;
   }
 
-  nav li{
+  nav ul{
     float: right;
+  }
+
+  nav li{
+    float: left;
+    text-align: left;
     margin-left: 5%;
     margin-right:0;
   }
 
   
   /* Requirement 11 code here -- Do not remove this comment. */
-
+  .skip:focus{
+    position: fixed;
+    top: 20px;
+    left: 0px;
+  }
 
 
   /* Requirement 12 code here -- Do not remove this comment. */
-  
+  .container{
+    display: grid;
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 300px 300px 300px 300px;
+  }
 
 
   /* Requirement 13 code here -- Do not remove this comment. */
- 
+  .about, .method, .clients-image, .contact-image{
+    grid-column: 3/5;
+  }
 
   /* Requirement 14 code here -- Do not remove this comment. */
- 
+  .clients, .contact, .about-image, .method-image{
+    grid-column: 2/4;
+  }
+
 
   /* Requirement 15 code here -- Do not remove this comment. */
+  main img {
+    max-height: 300px;
+  }
 }
 
 /** Code for prefers reduced motion **/
