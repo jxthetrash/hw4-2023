@@ -85,14 +85,14 @@ img{
   }
 
   nav ul{
-    float: right;
+    /* float: right; */
   }
 
   nav li{
-    float: left;
+    /* float: left;
     text-align: left;
     margin-left: 5%;
-    margin-right:0;
+    margin-right:0; */
   }
 
   
