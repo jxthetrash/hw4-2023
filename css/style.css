@@ -83,18 +83,6 @@ img{
 
     text-align: right;
   }
-
-  nav ul{
-    /* float: right; */
-  }
-
-  nav li{
-    /* float: left;
-    text-align: left;
-    margin-left: 5%;
-    margin-right:0; */
-  }
-
   
   /* Requirement 11 code here -- Do not remove this comment. */
   .skip:focus{
@@ -124,7 +112,7 @@ img{
 
 
   /* Requirement 15 code here -- Do not remove this comment. */
-  #main > div > img {
+  .about-image, .clients-image, .method-image, .contact-image{
     overflow: hidden;
   }
 }
