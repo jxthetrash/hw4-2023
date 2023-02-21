@@ -125,6 +125,7 @@ img{
 
   /* Requirement 15 code here -- Do not remove this comment. */
   #main > div > img {
+    overflow: hidden;
     max-height: 300px;
   }
 }
